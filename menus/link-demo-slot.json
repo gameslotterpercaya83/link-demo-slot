@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle link-demo-slot",
+        "command": "link-demo-slot:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "link-demo-slot",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "link-demo-slot:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
